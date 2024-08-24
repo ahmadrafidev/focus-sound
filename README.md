@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Focus Sound Generator
 
-## Getting Started
+A web application that allows users to select and mix different ambient sounds, such as rain, forest, or white noise, to create a personalized environment that enhances focus and productivity.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Focus Sound Generator](#focus-sound-generator)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Options](#options)
+  - [Built With](#built-with)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Multiple Ambient Sounds**: Choose from a variety of ambient sounds like rain, forest, ocean waves, white noise, fireplace, coffee shop, wind, and thunderstorm.
+- **Sound Mixing**: Mix multiple sounds and adjust the volume of each sound individually to create a custom soundscape.
+- **Timer Functionality**: Set a timer for the sounds to fade out or stop after a specified duration, perfect for focused work sessions or meditation.
+- **Save Favorite Mixes**: Save, name, and manage your favorite sound mixes for quick access.
+- **Responsive Design**: Mobile-friendly interface to ensure usability across different devices.
+- **Minimalist UI**: Clean and intuitive interface with easy-to-use controls for play, pause, and sound selection.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Options
 
-## Learn More
+- **Sound Options**:
+  - **Rain**: Soft rain sounds for a calming atmosphere.
+  - **Forest**: Birds chirping and rustling leaves for a nature-like experience.
+  - **Ocean Waves**: Gentle waves for a soothing beach vibe.
+  - **White Noise**: A consistent sound to block out distractions.
+  - **Fireplace**: Crackling fire sounds for a cozy feel.
+  - **Coffee Shop**: Ambient chatter and clinking cups to simulate a café environment.
+  - **Wind**: Gentle breeze sounds for a peaceful setting.
+  - **Thunderstorm**: Distant thunder for a dynamic sound experience.
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **React** - A JavaScript library for building user interfaces.
+- **Next.js** - A React framework for server-side rendering and static site generation.
+- **Tailwind CSS** - A utility-first CSS framework for rapidly building custom designs.
+- **Web Audio API** - For handling audio playback and mixing.
